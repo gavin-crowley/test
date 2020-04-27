@@ -1,0 +1,29 @@
+body {
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height:1020px;
+    width:480px;
+    border:1px solid #ccc;
+    border-radius: 30px;
+}
+
+header {
+    padding: 31px;
+    padding-top: 45px;
+    .menu {
+        background: #F7F7F7;
+        padding:0.5em;
+        padding-top: 1em;
+        padding-right: 1em;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+
+    }
+}
